@@ -42,9 +42,9 @@ public class AttractionListActivity  extends RecyclerView.Adapter<AttractionList
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                CanadaAttraction c =canadaAttractionsArrayList.get(position);
+                CanadaAttraction caAtt = canadaAttractionsArrayList.get(position);
                 Intent sint = new Intent(holder.itemView.getContext(), AttractionDetailsActivity.class);
-                sint.putExtra("places", c);
+                sint.putExtra("places", caAtt);
                 holder.itemView.getContext().startActivity(sint);
             }
         });

@@ -57,7 +57,6 @@ public class MainActivity extends AppCompatActivity {
         places.add(new CanadaAttraction(13,"Columbia Icefield Skywalk", "Icefields Pkwy, Jasper, AB T0E 1E0", "Jasper", "Alberta", "This one-kilometer walkway is stretched 35 meters ahead to give an amazing view of nature. This glass floor is almost as high as the CN Tower so, get ready to get this experience. This is one of the top places to see in Canada for all adventure junkies!", R.drawable.skywalk));
         places.add(new CanadaAttraction(14,"Montmorency Falls", "5300 Boulevard Sainte-Anne, Québec, QC G1C 1S1", "Quebec City", "Quebec", "Montmorency Falls is located just 12 kilometers away from the heart of Quebec city. They are the highest falls in the country being 100 feet higher than the famous Niagara Falls. The best part is that you can take a good look at these falls by going for a walk over the suspension bridge.", R.drawable.montmorencyfalls));
         places.add(new CanadaAttraction(15,"Capilano Suspension Bridge", "3735 Capilano Rd, North Vancouver, BC V7R 4J1", "North Vancouver", "British Columbia", "It is 140 meters long and 70 meters high above the river and taking a stroll through the thick green forest will make you fall in love with this place. If you have a fear of heights then you might want to skip this place.", R.drawable.suspensionbridge));
-
     }
 }
 

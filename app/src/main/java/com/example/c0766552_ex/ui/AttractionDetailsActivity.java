@@ -31,7 +31,6 @@ public class AttractionDetailsActivity extends AppCompatActivity {
 
         CanadaAttraction tempObj = (CanadaAttraction) getIntent().getSerializableExtra("places");
 
-
         txtId = findViewById(R.id.textView1);
         txtName = findViewById(R.id.textView2);
         txtAdd = findViewById(R.id.textView3);

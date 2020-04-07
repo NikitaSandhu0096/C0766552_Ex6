@@ -13,7 +13,7 @@ import com.example.c0766552_ex.R;
 
 import org.w3c.dom.Text;
 
-public class Splash extends AppCompatActivity {    //https://www.youtube.com/watch?v=jXtof6OUtcE
+public class SplashActivity extends AppCompatActivity {    //https://www.youtube.com/watch?v=jXtof6OUtcE
 
     private int SPLASH_TIME_OUT = 5000;
     @Override
@@ -27,7 +27,7 @@ public class Splash extends AppCompatActivity {    //https://www.youtube.com/wat
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent hint = new Intent(Splash.this, MainActivity.class);
+                Intent hint = new Intent(SplashActivity.this, MainActivity.class);
                 startActivity(hint);
                 finish();
             }
